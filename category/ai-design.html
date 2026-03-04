@@ -1,0 +1,2037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best AI Design Tools 2026 - AI-Powered Graphic Design & UI/UX Tools | AI Tools International</title>
+    <meta name="description" content="Discover the top 50 AI design tools for 2026. From Canva AI to Figma AI, find the best AI-powered graphic design, logo creation, and UI/UX tools to transform your creative workflow.">
+    <meta name="keywords" content="AI design tools, AI graphic design, AI logo maker, Canva AI, Figma AI, AI UI design, AI UX tools, generative design, AI mockup generator, AI color palette">
+    <link rel="canonical" href="https://aitoolsinternational.com/category/ai-design">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --dark-bg: #0f0f23;
+            --card-bg: #1a1a2e;
+            --card-hover: #252541;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0b8;
+            --accent-blue: #667eea;
+            --accent-purple: #764ba2;
+            --border-color: #2d2d44;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .hero-section {
+            padding: 4rem 0;
+            text-align: center;
+            background: linear-gradient(180deg, var(--card-bg) 0%, var(--dark-bg) 100%);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .category-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .category-description {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        .category-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        .filter-section {
+            background: var(--card-bg);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filter-label {
+            color: var(--text-secondary);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .filter-select, .search-input {
+            background: var(--dark-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-select:hover, .search-input:hover,
+        .filter-select:focus, .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        .search-input {
+            min-width: 300px;
+            flex: 1;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .tool-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--accent-blue);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.2);
+        }
+
+        .tool-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tool-logo {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-gradient);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .tool-info {
+            flex: 1;
+        }
+
+        .tool-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .tool-developer {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .tool-tagline {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .tool-features {
+            margin: 1.5rem 0;
+        }
+
+        .feature-tag {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.1);
+            color: var(--accent-blue);
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin: 0.25rem;
+        }
+
+        .tool-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .tool-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .rating-stars {
+            color: #ffd700;
+            font-size: 1.1rem;
+        }
+
+        .rating-number {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .tool-pricing {
+            background: rgba(102, 126, 234, 0.1);
+            color: var(--accent-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .cta-button {
+            background: var(--primary-gradient);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .section-header {
+            text-align: center;
+            margin: 4rem 0 3rem;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .section-description {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            padding: 3rem 0;
+            margin-top: 6rem;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 768px) {
+            .category-title {
+                font-size: 2rem;
+            }
+
+            .category-stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-input {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">AI Tools International</div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#tools">Browse Tools</a></li>
+                    <li><a href="../index.html#blog">Blog</a></li>
+                    <li><a href="../index.html#categories">Categories</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="category-title">AI Design Tools</h1>
+            <p class="category-description">
+                Transform your creative workflow with AI-powered design tools. From graphic design to UI/UX, logo creation to 3D modeling, discover the best AI tools that help designers work faster, smarter, and more creatively.
+            </p>
+            <div class="category-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">AI Design Tools</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.7</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Free Tools Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="filter-section">
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label class="filter-label">Filter by:</label>
+                    <select class="filter-select" id="priceFilter">
+                        <option value="all">All Pricing</option>
+                        <option value="free">Free</option>
+                        <option value="freemium">Freemium</option>
+                        <option value="paid">Paid Only</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select class="filter-select" id="ratingFilter">
+                        <option value="all">All Ratings</option>
+                        <option value="4.5">4.5+ Stars</option>
+                        <option value="4.0">4.0+ Stars</option>
+                        <option value="3.5">3.5+ Stars</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <select class="filter-select" id="typeFilter">
+                        <option value="all">All Types</option>
+                        <option value="graphic">Graphic Design</option>
+                        <option value="ui-ux">UI/UX Design</option>
+                        <option value="logo">Logo Design</option>
+                        <option value="3d">3D Design</option>
+                        <option value="mockup">Mockup Generator</option>
+                    </select>
+                </div>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search AI design tools...">
+            </div>
+        </div>
+
+        <div class="tools-grid" id="toolsGrid">
+            <!-- Tool Card 1: Canva AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.8" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">C</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Canva AI</h3>
+                        <p class="tool-developer">Canva</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered graphic design platform with magic design features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Image Generation</span>
+                    <span class="feature-tag">Magic Resize</span>
+                    <span class="feature-tag">Background Remover</span>
+                    <span class="feature-tag">Templates</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.8</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.canva.com" class="cta-button" target="_blank" rel="noopener">Visit Canva AI</a>
+            </div>
+
+            <!-- Tool Card 2: Figma AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.7" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">F</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Figma AI</h3>
+                        <p class="tool-developer">Figma</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-enhanced collaborative design tool for UI/UX designers</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Auto Layout</span>
+                    <span class="feature-tag">AI Prototyping</span>
+                    <span class="feature-tag">Design Systems</span>
+                    <span class="feature-tag">Real-time Collaboration</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.figma.com" class="cta-button" target="_blank" rel="noopener">Visit Figma AI</a>
+            </div>
+
+            <!-- Tool Card 3: Adobe Firefly -->
+            <div class="tool-card" data-price="freemium" data-rating="4.8" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">A</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Adobe Firefly</h3>
+                        <p class="tool-developer">Adobe</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Generative AI for creative content creation from Adobe</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Text to Image</span>
+                    <span class="feature-tag">Generative Fill</span>
+                    <span class="feature-tag">Text Effects</span>
+                    <span class="feature-tag">Vector Recolor</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.8</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.adobe.com/products/firefly.html" class="cta-button" target="_blank" rel="noopener">Visit Adobe Firefly</a>
+            </div>
+
+            <!-- Tool Card 4: Uizard -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">U</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Uizard</h3>
+                        <p class="tool-developer">Uizard Technologies</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered app and website design tool from text descriptions</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Text to Design</span>
+                    <span class="feature-tag">Screenshot to Mockup</span>
+                    <span class="feature-tag">Wireframing</span>
+                    <span class="feature-tag">Prototyping</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://uizard.io" class="cta-button" target="_blank" rel="noopener">Visit Uizard</a>
+            </div>
+
+            <!-- Tool Card 5: Looka (Logo AI) -->
+            <div class="tool-card" data-price="paid" data-rating="4.7" data-type="logo">
+                <div class="tool-header">
+                    <div class="tool-logo">L</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Looka</h3>
+                        <p class="tool-developer">Looka Inc.</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered logo design and brand identity platform</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Logo Generation</span>
+                    <span class="feature-tag">Brand Kit</span>
+                    <span class="feature-tag">Business Cards</span>
+                    <span class="feature-tag">Social Media Kits</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">From $20</div>
+                </div>
+                <a href="https://looka.com" class="cta-button" target="_blank" rel="noopener">Visit Looka</a>
+            </div>
+
+            <!-- Tool Card 6: Khroma -->
+            <div class="tool-card" data-price="free" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">K</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Khroma</h3>
+                        <p class="tool-developer">Khroma</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI color palette generator that learns your preferences</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Color Palette AI</span>
+                    <span class="feature-tag">Learning Algorithm</span>
+                    <span class="feature-tag">Color Combinations</span>
+                    <span class="feature-tag">Save Favorites</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://www.khroma.co" class="cta-button" target="_blank" rel="noopener">Visit Khroma</a>
+            </div>
+
+            <!-- Tool Card 7: Spline AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="3d">
+                <div class="tool-header">
+                    <div class="tool-logo">S</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Spline AI</h3>
+                        <p class="tool-developer">Spline</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered 3D design tool with text-to-3D generation</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Text to 3D</span>
+                    <span class="feature-tag">3D Modeling</span>
+                    <span class="feature-tag">Animation</span>
+                    <span class="feature-tag">Interactive Design</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://spline.design" class="cta-button" target="_blank" rel="noopener">Visit Spline AI</a>
+            </div>
+
+            <!-- Tool Card 8: Galileo AI -->
+            <div class="tool-card" data-price="paid" data-rating="4.5" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">G</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Galileo AI</h3>
+                        <p class="tool-developer">Galileo AI</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI copilot for interface design from text descriptions</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Text to UI</span>
+                    <span class="feature-tag">High-Fidelity Designs</span>
+                    <span class="feature-tag">Editable Figma Files</span>
+                    <span class="feature-tag">AI Illustrations</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">From $19/mo</div>
+                </div>
+                <a href="https://www.usegalileo.ai" class="cta-button" target="_blank" rel="noopener">Visit Galileo AI</a>
+            </div>
+
+            <!-- Tool Card 9: Autodraw -->
+            <div class="tool-card" data-price="free" data-rating="4.3" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">A</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">AutoDraw</h3>
+                        <p class="tool-developer">Google Creative Lab</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered drawing tool that suggests professional illustrations</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Smart Drawing</span>
+                    <span class="feature-tag">AI Suggestions</span>
+                    <span class="feature-tag">Free Icons</span>
+                    <span class="feature-tag">Quick Sketches</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.3</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://www.autodraw.com" class="cta-button" target="_blank" rel="noopener">Visit AutoDraw</a>
+            </div>
+
+            <!-- Tool Card 10: Designs.ai -->
+            <div class="tool-card" data-price="paid" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">D</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Designs.ai</h3>
+                        <p class="tool-developer">Inmagine Lab</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">All-in-one AI creative suite for logos, videos, and mockups</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Logo Maker</span>
+                    <span class="feature-tag">Video Maker</span>
+                    <span class="feature-tag">Mockup Generator</span>
+                    <span class="feature-tag">Design Templates</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">From $29/mo</div>
+                </div>
+                <a href="https://designs.ai" class="cta-button" target="_blank" rel="noopener">Visit Designs.ai</a>
+            </div>
+
+            <!-- Tool Card 11: Remove.bg -->
+            <div class="tool-card" data-price="freemium" data-rating="4.8" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">R</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Remove.bg</h3>
+                        <p class="tool-developer">Kaleido AI</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered automatic background removal in seconds</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Background Removal</span>
+                    <span class="feature-tag">Batch Processing</span>
+                    <span class="feature-tag">API Access</span>
+                    <span class="feature-tag">High Resolution</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.8</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.remove.bg" class="cta-button" target="_blank" rel="noopener">Visit Remove.bg</a>
+            </div>
+
+            <!-- Tool Card 12: Palette.fm -->
+            <div class="tool-card" data-price="free" data-rating="4.7" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Palette.fm</h3>
+                        <p class="tool-developer">Palette</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI colorization tool for black and white photos</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Photo Colorization</span>
+                    <span class="feature-tag">Multiple Styles</span>
+                    <span class="feature-tag">Batch Processing</span>
+                    <span class="feature-tag">High Quality</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://palette.fm" class="cta-button" target="_blank" rel="noopener">Visit Palette.fm</a>
+            </div>
+
+            <!-- Tool Card 13: Framer AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.7" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">F</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Framer AI</h3>
+                        <p class="tool-developer">Framer</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered website builder with design and publishing tools</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Website Builder</span>
+                    <span class="feature-tag">No-Code Design</span>
+                    <span class="feature-tag">Responsive</span>
+                    <span class="feature-tag">CMS Integration</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.framer.com" class="cta-button" target="_blank" rel="noopener">Visit Framer AI</a>
+            </div>
+
+            <!-- Tool Card 14: Vizcom -->
+            <div class="tool-card" data-price="paid" data-rating="4.5" data-type="3d">
+                <div class="tool-header">
+                    <div class="tool-logo">V</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Vizcom</h3>
+                        <p class="tool-developer">Vizcom</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered industrial design and 3D rendering tool</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Sketch to Render</span>
+                    <span class="feature-tag">3D Visualization</span>
+                    <span class="feature-tag">Product Design</span>
+                    <span class="feature-tag">Real-time Rendering</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">From $30/mo</div>
+                </div>
+                <a href="https://www.vizcom.ai" class="cta-button" target="_blank" rel="noopener">Visit Vizcom</a>
+            </div>
+
+            <!-- Tool Card 15: Logoai -->
+            <div class="tool-card" data-price="paid" data-rating="4.4" data-type="logo">
+                <div class="tool-header">
+                    <div class="tool-logo">L</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Logoai</h3>
+                        <p class="tool-developer">Logoai</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered logo design with brand identity solutions</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Logo Generator</span>
+                    <span class="feature-tag">Brand Guidelines</span>
+                    <span class="feature-tag">Business Cards</span>
+                    <span class="feature-tag">Stationery Design</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">From $29</div>
+                </div>
+                <a href="https://www.logoai.com" class="cta-button" target="_blank" rel="noopener">Visit Logoai</a>
+            </div>
+
+            <!-- Tool Card 16: Pixlr AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Pixlr AI</h3>
+                        <p class="tool-developer">Pixlr</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-enhanced photo editor with smart tools and filters</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Photo Editing</span>
+                    <span class="feature-tag">Background Removal</span>
+                    <span class="feature-tag">AI Cutout</span>
+                    <span class="feature-tag">Filters & Effects</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://pixlr.com" class="cta-button" target="_blank" rel="noopener">Visit Pixlr AI</a>
+            </div>
+
+            <!-- Tool Card 17: Ando -->
+            <div class="tool-card" data-price="freemium" data-rating="4.4" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">A</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Ando</h3>
+                        <p class="tool-developer">Ando</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI design assistant for creating landing pages and websites</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Page Builder</span>
+                    <span class="feature-tag">Smart Templates</span>
+                    <span class="feature-tag">Responsive Design</span>
+                    <span class="feature-tag">SEO Optimized</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.ando.ai" class="cta-button" target="_blank" rel="noopener">Visit Ando</a>
+            </div>
+
+            <!-- Tool Card 18: Magician (for Figma) -->
+            <div class="tool-card" data-price="free" data-rating="4.5" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">M</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Magician</h3>
+                        <p class="tool-developer">Diagram</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI design assistant plugin for Figma with magic features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Icons</span>
+                    <span class="feature-tag">Copywriting</span>
+                    <span class="feature-tag">Image Generation</span>
+                    <span class="feature-tag">Figma Plugin</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://magician.design" class="cta-button" target="_blank" rel="noopener">Visit Magician</a>
+            </div>
+
+            <!-- Tool Card 19: Mockup.io -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="mockup">
+                <div class="tool-header">
+                    <div class="tool-logo">M</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Mockup.io</h3>
+                        <p class="tool-developer">MockupWorld</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered mockup generator for products and designs</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Smart Mockups</span>
+                    <span class="feature-tag">Device Frames</span>
+                    <span class="feature-tag">3D Mockups</span>
+                    <span class="feature-tag">Templates Library</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://mockup.io" class="cta-button" target="_blank" rel="noopener">Visit Mockup.io</a>
+            </div>
+
+            <!-- Tool Card 20: Brandmark -->
+            <div class="tool-card" data-price="paid" data-rating="4.5" data-type="logo">
+                <div class="tool-header">
+                    <div class="tool-logo">B</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Brandmark</h3>
+                        <p class="tool-developer">Brandmark</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI logo generator with comprehensive brand identity tools</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Logo Design</span>
+                    <span class="feature-tag">Brand Assets</span>
+                    <span class="feature-tag">Color Schemes</span>
+                    <span class="feature-tag">Font Pairing</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">From $25</div>
+                </div>
+                <a href="https://brandmark.io" class="cta-button" target="_blank" rel="noopener">Visit Brandmark</a>
+            </div>
+
+            <!-- Tool Card 21: Hotpot.ai -->
+            <div class="tool-card" data-price="freemium" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">H</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Hotpot.ai</h3>
+                        <p class="tool-developer">Hotpot</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Suite of AI graphic design tools for various creative needs</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Art Generator</span>
+                    <span class="feature-tag">Photo Upscaler</span>
+                    <span class="feature-tag">Background Remover</span>
+                    <span class="feature-tag">Object Remover</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://hotpot.ai" class="cta-button" target="_blank" rel="noopener">Visit Hotpot.ai</a>
+            </div>
+
+            <!-- Tool Card 22: Relume -->
+            <div class="tool-card" data-price="paid" data-rating="4.6" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">R</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Relume</h3>
+                        <p class="tool-developer">Relume</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered wireframing and sitemap generation tool</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Sitemaps</span>
+                    <span class="feature-tag">Wireframing</span>
+                    <span class="feature-tag">Component Library</span>
+                    <span class="feature-tag">Export to Figma</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">From $38/mo</div>
+                </div>
+                <a href="https://www.relume.io" class="cta-button" target="_blank" rel="noopener">Visit Relume</a>
+            </div>
+
+            <!-- Tool Card 23: Visily -->
+            <div class="tool-card" data-price="freemium" data-rating="4.4" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">V</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Visily</h3>
+                        <p class="tool-developer">Visily</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered wireframing and UI design for non-designers</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Screenshot to Design</span>
+                    <span class="feature-tag">Text to Design</span>
+                    <span class="feature-tag">Smart Templates</span>
+                    <span class="feature-tag">Collaboration</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.visily.ai" class="cta-button" target="_blank" rel="noopener">Visit Visily</a>
+            </div>
+
+            <!-- Tool Card 24: Diagram -->
+            <div class="tool-card" data-price="free" data-rating="4.3" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">D</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Diagram</h3>
+                        <p class="tool-developer">Diagram</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI design tools for Figma to accelerate creative workflow</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Autocomplete</span>
+                    <span class="feature-tag">Text Generation</span>
+                    <span class="feature-tag">Icon Generation</span>
+                    <span class="feature-tag">Figma Plugin</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.3</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://diagram.com" class="cta-button" target="_blank" rel="noopener">Visit Diagram</a>
+            </div>
+
+            <!-- Tool Card 25: Booth.ai -->
+            <div class="tool-card" data-price="paid" data-rating="4.7" data-type="mockup">
+                <div class="tool-header">
+                    <div class="tool-logo">B</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Booth.ai</h3>
+                        <p class="tool-developer">Booth AI</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI product photography and lifestyle mockup generator</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Product Photos</span>
+                    <span class="feature-tag">Lifestyle Shots</span>
+                    <span class="feature-tag">Background Generation</span>
+                    <span class="feature-tag">High Resolution</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">From $39/mo</div>
+                </div>
+                <a href="https://www.booth.ai" class="cta-button" target="_blank" rel="noopener">Visit Booth.ai</a>
+            </div>
+
+            <!-- Tool Card 26: Simplified -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">S</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Simplified</h3>
+                        <p class="tool-developer">Simplified</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">All-in-one AI design and content creation platform</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Graphic Design</span>
+                    <span class="feature-tag">Video Editor</span>
+                    <span class="feature-tag">AI Writer</span>
+                    <span class="feature-tag">Social Media</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://simplified.com" class="cta-button" target="_blank" rel="noopener">Visit Simplified</a>
+            </div>
+
+            <!-- Tool Card 27: Runway (Design Features) -->
+            <div class="tool-card" data-price="freemium" data-rating="4.8" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">R</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Runway</h3>
+                        <p class="tool-developer">Runway</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI creative suite with advanced generative design tools</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Image Generation</span>
+                    <span class="feature-tag">Inpainting</span>
+                    <span class="feature-tag">Style Transfer</span>
+                    <span class="feature-tag">Video Editing</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.8</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://runwayml.com" class="cta-button" target="_blank" rel="noopener">Visit Runway</a>
+            </div>
+
+            <!-- Tool Card 28: Creatie -->
+            <div class="tool-card" data-price="freemium" data-rating="4.4" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">C</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Creatie</h3>
+                        <p class="tool-developer">Creatie</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered design tool for social media and marketing</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Social Media Posts</span>
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">Brand Kit</span>
+                    <span class="feature-tag">Scheduling</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://creatie.ai" class="cta-button" target="_blank" rel="noopener">Visit Creatie</a>
+            </div>
+
+            <!-- Tool Card 29: Visme AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">V</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Visme AI</h3>
+                        <p class="tool-developer">Visme</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI design platform for presentations, infographics, and more</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Presentations</span>
+                    <span class="feature-tag">Infographics</span>
+                    <span class="feature-tag">AI Designer</span>
+                    <span class="feature-tag">Data Visualization</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.visme.co" class="cta-button" target="_blank" rel="noopener">Visit Visme AI</a>
+            </div>
+
+            <!-- Tool Card 30: Zyro AI -->
+            <div class="tool-card" data-price="paid" data-rating="4.3" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">Z</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Zyro AI</h3>
+                        <p class="tool-developer">Hostinger</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI website builder with logo and content generation</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Website Builder</span>
+                    <span class="feature-tag">AI Logo Maker</span>
+                    <span class="feature-tag">AI Writer</span>
+                    <span class="feature-tag">Templates</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.3</span>
+                    </div>
+                    <div class="tool-pricing">From $2.90/mo</div>
+                </div>
+                <a href="https://zyro.com" class="cta-button" target="_blank" rel="noopener">Visit Zyro AI</a>
+            </div>
+
+            <!-- Tool Card 31: Crello (VistaCreate) -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">V</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">VistaCreate</h3>
+                        <p class="tool-developer">VistaCreate</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered design tool for social media and marketing</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">Animation</span>
+                    <span class="feature-tag">Background Remover</span>
+                    <span class="feature-tag">Brand Kit</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://create.vista.com" class="cta-button" target="_blank" rel="noopener">Visit VistaCreate</a>
+            </div>
+
+            <!-- Tool Card 32: Recraft.ai -->
+            <div class="tool-card" data-price="freemium" data-rating="4.7" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">R</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Recraft.ai</h3>
+                        <p class="tool-developer">Recraft</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI vector graphics and illustration generator</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Vector Generation</span>
+                    <span class="feature-tag">Icons</span>
+                    <span class="feature-tag">Illustrations</span>
+                    <span class="feature-tag">Style Control</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.recraft.ai" class="cta-button" target="_blank" rel="noopener">Visit Recraft.ai</a>
+            </div>
+
+            <!-- Tool Card 33: Photopea -->
+            <div class="tool-card" data-price="free" data-rating="4.7" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Photopea</h3>
+                        <p class="tool-developer">Photopea</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Free online photo editor with AI-powered features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">PSD Support</span>
+                    <span class="feature-tag">AI Tools</span>
+                    <span class="feature-tag">Layers</span>
+                    <span class="feature-tag">Web-based</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://www.photopea.com" class="cta-button" target="_blank" rel="noopener">Visit Photopea</a>
+            </div>
+
+            <!-- Tool Card 34: Kittl -->
+            <div class="tool-card" data-price="freemium" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">K</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Kittl</h3>
+                        <p class="tool-developer">Kittl</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI design platform for creating stunning graphics and typography</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Typography</span>
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">AI Images</span>
+                    <span class="feature-tag">Vector Tools</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.kittl.com" class="cta-button" target="_blank" rel="noopener">Visit Kittl</a>
+            </div>
+
+            <!-- Tool Card 35: Designify -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">D</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Designify</h3>
+                        <p class="tool-developer">Designify</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI photo editor for automatic design enhancements</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Auto Enhance</span>
+                    <span class="feature-tag">Background Removal</span>
+                    <span class="feature-tag">Shadows & Lighting</span>
+                    <span class="feature-tag">Batch Processing</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.designify.com" class="cta-button" target="_blank" rel="noopener">Visit Designify</a>
+            </div>
+
+            <!-- Tool Card 36: Clipdrop -->
+            <div class="tool-card" data-price="freemium" data-rating="4.7" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">C</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Clipdrop</h3>
+                        <p class="tool-developer">Stability AI</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered visual creation suite with multiple tools</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Background Removal</span>
+                    <span class="feature-tag">Image Upscaling</span>
+                    <span class="feature-tag">Cleanup Tool</span>
+                    <span class="feature-tag">Uncrop</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://clipdrop.co" class="cta-button" target="_blank" rel="noopener">Visit Clipdrop</a>
+            </div>
+
+            <!-- Tool Card 37: Lunacy -->
+            <div class="tool-card" data-price="free" data-rating="4.5" data-type="ui-ux">
+                <div class="tool-header">
+                    <div class="tool-logo">L</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Lunacy</h3>
+                        <p class="tool-developer">Icons8</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Free graphic design software with AI-powered features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Vector Design</span>
+                    <span class="feature-tag">AI Tools</span>
+                    <span class="feature-tag">Built-in Graphics</span>
+                    <span class="feature-tag">Sketch Compatible</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://icons8.com/lunacy" class="cta-button" target="_blank" rel="noopener">Visit Lunacy</a>
+            </div>
+
+            <!-- Tool Card 38: Picsart AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Picsart AI</h3>
+                        <p class="tool-developer">Picsart</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">All-in-one creative platform with AI editing tools</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Photo Editor</span>
+                    <span class="feature-tag">Background Remover</span>
+                    <span class="feature-tag">AI Art Generator</span>
+                    <span class="feature-tag">Templates</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://picsart.com" class="cta-button" target="_blank" rel="noopener">Visit Picsart AI</a>
+            </div>
+
+            <!-- Tool Card 39: Fotor AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">F</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Fotor AI</h3>
+                        <p class="tool-developer">Fotor</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Online photo editor with AI-powered design features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Image Generator</span>
+                    <span class="feature-tag">Photo Enhancer</span>
+                    <span class="feature-tag">Collage Maker</span>
+                    <span class="feature-tag">Templates</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://www.fotor.com" class="cta-button" target="_blank" rel="noopener">Visit Fotor AI</a>
+            </div>
+
+            <!-- Tool Card 40: Snappa -->
+            <div class="tool-card" data-price="freemium" data-rating="4.4" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">S</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Snappa</h3>
+                        <p class="tool-developer">Snappa</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Quick and easy graphic design tool with AI features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">Background Remover</span>
+                    <span class="feature-tag">Graphics Library</span>
+                    <span class="feature-tag">Resize Tool</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://snappa.com" class="cta-button" target="_blank" rel="noopener">Visit Snappa</a>
+            </div>
+
+            <!-- Tool Card 41: Stencil -->
+            <div class="tool-card" data-price="paid" data-rating="4.3" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">S</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Stencil</h3>
+                        <p class="tool-developer">Stencil</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Fast social media graphic creator with templates</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Quick Design</span>
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">Icons & Photos</span>
+                    <span class="feature-tag">Chrome Extension</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.3</span>
+                    </div>
+                    <div class="tool-pricing">From $15/mo</div>
+                </div>
+                <a href="https://getstencil.com" class="cta-button" target="_blank" rel="noopener">Visit Stencil</a>
+            </div>
+
+            <!-- Tool Card 42: Glorify -->
+            <div class="tool-card" data-price="paid" data-rating="4.6" data-type="mockup">
+                <div class="tool-header">
+                    <div class="tool-logo">G</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Glorify</h3>
+                        <p class="tool-developer">Glorify</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Product mockup and design tool for ecommerce brands</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Product Mockups</span>
+                    <span class="feature-tag">AI Background</span>
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">Batch Processing</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">From $19/mo</div>
+                </div>
+                <a href="https://www.glorifyapp.com" class="cta-button" target="_blank" rel="noopener">Visit Glorify</a>
+            </div>
+
+            <!-- Tool Card 43: Placeit -->
+            <div class="tool-card" data-price="paid" data-rating="4.7" data-type="mockup">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Placeit</h3>
+                        <p class="tool-developer">Envato</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Mockup generator and design template marketplace</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Mockups</span>
+                    <span class="feature-tag">Logo Maker</span>
+                    <span class="feature-tag">Video Templates</span>
+                    <span class="feature-tag">Huge Library</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★★</span>
+                        <span class="rating-number">4.7</span>
+                    </div>
+                    <div class="tool-pricing">From $14.95/mo</div>
+                </div>
+                <a href="https://placeit.net" class="cta-button" target="_blank" rel="noopener">Visit Placeit</a>
+            </div>
+
+            <!-- Tool Card 44: Polotno Studio -->
+            <div class="tool-card" data-price="free" data-rating="4.4" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Polotno Studio</h3>
+                        <p class="tool-developer">Polotno</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">Free online design editor with AI-powered features</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">AI Background Removal</span>
+                    <span class="feature-tag">Text Effects</span>
+                    <span class="feature-tag">Export Options</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://studio.polotno.com" class="cta-button" target="_blank" rel="noopener">Visit Polotno Studio</a>
+            </div>
+
+            <!-- Tool Card 45: Vectorizer.AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.6" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">V</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Vectorizer.AI</h3>
+                        <p class="tool-developer">Vectorizer.AI</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered bitmap to vector conversion tool</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Image to Vector</span>
+                    <span class="feature-tag">AI Tracing</span>
+                    <span class="feature-tag">High Quality</span>
+                    <span class="feature-tag">SVG Export</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.6</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://vectorizer.ai" class="cta-button" target="_blank" rel="noopener">Visit Vectorizer.AI</a>
+            </div>
+
+            <!-- Tool Card 46: ColorMagic -->
+            <div class="tool-card" data-price="free" data-rating="4.4" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">C</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">ColorMagic</h3>
+                        <p class="tool-developer">ColorMagic</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI color palette generator from keywords</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Palettes</span>
+                    <span class="feature-tag">Keyword Based</span>
+                    <span class="feature-tag">Export Options</span>
+                    <span class="feature-tag">Color Harmony</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.4</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://colormagic.app" class="cta-button" target="_blank" rel="noopener">Visit ColorMagic</a>
+            </div>
+
+            <!-- Tool Card 47: ImageEnhan.AI -->
+            <div class="tool-card" data-price="freemium" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">I</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">ImageEnhan.AI</h3>
+                        <p class="tool-developer">ImageEnhan</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI photo enhancer and upscaler for better image quality</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Upscaling</span>
+                    <span class="feature-tag">Enhancement</span>
+                    <span class="feature-tag">Noise Reduction</span>
+                    <span class="feature-tag">Batch Processing</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://imageenhan.ai" class="cta-button" target="_blank" rel="noopener">Visit ImageEnhan.AI</a>
+            </div>
+
+            <!-- Tool Card 48: Magicul -->
+            <div class="tool-card" data-price="freemium" data-rating="4.3" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">M</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Magicul</h3>
+                        <p class="tool-developer">Magicul</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI design assistant for quick graphic creation</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Quick Designs</span>
+                    <span class="feature-tag">AI Templates</span>
+                    <span class="feature-tag">Social Media</span>
+                    <span class="feature-tag">Brand Assets</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.3</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://magicul.io" class="cta-button" target="_blank" rel="noopener">Visit Magicul</a>
+            </div>
+
+            <!-- Tool Card 49: Pattern Radio -->
+            <div class="tool-card" data-price="free" data-rating="4.2" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">P</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Pattern Radio</h3>
+                        <p class="tool-developer">Google</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI-powered pattern exploration and generation</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Pattern Generation</span>
+                    <span class="feature-tag">Sound-based</span>
+                    <span class="feature-tag">Experimental</span>
+                    <span class="feature-tag">Free to Use</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.2</span>
+                    </div>
+                    <div class="tool-pricing">Free</div>
+                </div>
+                <a href="https://patternradio.withgoogle.com" class="cta-button" target="_blank" rel="noopener">Visit Pattern Radio</a>
+            </div>
+
+            <!-- Tool Card 50: Designstripe -->
+            <div class="tool-card" data-price="freemium" data-rating="4.5" data-type="graphic">
+                <div class="tool-header">
+                    <div class="tool-logo">D</div>
+                    <div class="tool-info">
+                        <h3 class="tool-name">Designstripe</h3>
+                        <p class="tool-developer">Designstripe</p>
+                    </div>
+                </div>
+                <p class="tool-tagline">AI illustration generator for social media and marketing</p>
+                <div class="tool-features">
+                    <span class="feature-tag">AI Illustrations</span>
+                    <span class="feature-tag">Customizable</span>
+                    <span class="feature-tag">Templates</span>
+                    <span class="feature-tag">Export SVG</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="rating-stars">★★★★☆</span>
+                        <span class="rating-number">4.5</span>
+                    </div>
+                    <div class="tool-pricing">Freemium</div>
+                </div>
+                <a href="https://designstripe.com" class="cta-button" target="_blank" rel="noopener">Visit Designstripe</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 0.85rem;">
+            Information sourced from: Official websites, product documentation, and public reviews.<br>
+            This directory is provided for informational purposes under Fair Use. All trademarks belong to their respective owners.
+        </p>
+        <div class="container">
+            <div class="footer-links">
+                <a href="../index.html">Home</a>
+                <a href="../legal/privacy-policy.html">Privacy Policy</a>
+                <a href="../legal/terms-of-service.html">Terms of Service</a>
+                <a href="../legal/dmca-policy.html">DMCA Policy</a>
+            </div>
+            <p>&copy; 2026 AI Tools International. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.85rem;">
+                We are not affiliated with the tools listed. All trademarks belong to their respective owners.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Filter and search functionality
+        const searchInput = document.getElementById('searchInput');
+        const priceFilter = document.getElementById('priceFilter');
+        const ratingFilter = document.getElementById('ratingFilter');
+        const typeFilter = document.getElementById('typeFilter');
+        const toolCards = document.querySelectorAll('.tool-card');
+
+        function filterTools() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedPrice = priceFilter.value;
+            const selectedRating = parseFloat(ratingFilter.value);
+            const selectedType = typeFilter.value;
+
+            toolCards.forEach(card => {
+                const toolName = card.querySelector('.tool-name').textContent.toLowerCase();
+                const toolTagline = card.querySelector('.tool-tagline').textContent.toLowerCase();
+                const cardPrice = card.getAttribute('data-price');
+                const cardRating = parseFloat(card.getAttribute('data-rating'));
+                const cardType = card.getAttribute('data-type');
+
+                const matchesSearch = toolName.includes(searchTerm) || toolTagline.includes(searchTerm);
+                const matchesPrice = selectedPrice === 'all' || cardPrice === selectedPrice;
+                const matchesRating = selectedRating === 'all' || cardRating >= selectedRating;
+                const matchesType = selectedType === 'all' || cardType === selectedType;
+
+                if (matchesSearch && matchesPrice && matchesRating && matchesType) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        searchInput.addEventListener('input', filterTools);
+        priceFilter.addEventListener('change', filterTools);
+        ratingFilter.addEventListener('change', filterTools);
+        typeFilter.addEventListener('change', filterTools);
+    </script>
+
+    
+    
+    <script>
+        // 工具详情页映射
+        const toolDetailPages = {
+            'ChatGPT': '../tools/chatgpt.html',
+            'Claude': '../tools/claude.html',
+            'Midjourney': '../tools/midjourney.html',
+            'DALL-E 3': '../tools/dall-e-3.html',
+            'DALL·E 3': '../tools/dall-e-3.html',
+            'Runway': '../tools/runway.html',
+            'ElevenLabs': '../tools/elevenlabs.html',
+            'GitHub Copilot': '../tools/github-copilot.html',
+            'Jasper': '../tools/jasper.html',
+            'Jasper AI': '../tools/jasper.html',
+            'Stable Diffusion': '../tools/stable-diffusion.html',
+            'Copy.ai': '../tools/copy-ai.html'
+        };
+        
+        // 工具官网映射
+        const toolWebsites = {
+            'Grammarly': 'https://www.grammarly.com',
+            'Notion AI': 'https://www.notion.so/product/ai',
+            'Writesonic': 'https://writesonic.com',
+            'Rytr': 'https://rytr.me',
+            'QuillBot': 'https://quillbot.com',
+            'Wordtune': 'https://www.wordtune.com',
+            'Hemingway Editor': 'https://hemingwayapp.com',
+            'ProWritingAid': 'https://prowritingaid.com',
+            'Otter.ai': 'https://otter.ai',
+            'Tome': 'https://tome.app',
+            'Canva': 'https://www.canva.com',
+            'Adobe Firefly': 'https://www.adobe.com/products/firefly.html',
+            'Leonardo.ai': 'https://leonardo.ai',
+            'Ideogram': 'https://ideogram.ai',
+            'Playground AI': 'https://playgroundai.com',
+            'Artbreeder': 'https://www.artbreeder.com',
+            'NightCafe': 'https://nightcafe.studio',
+            'Craiyon': 'https://www.craiyon.com',
+            'Pika': 'https://pika.art',
+            'Synthesia': 'https://www.synthesia.io',
+            'HeyGen': 'https://www.heygen.com',
+            'D-ID': 'https://www.d-id.com',
+            'Pictory': 'https://pictory.ai',
+            'Descript': 'https://www.descript.com',
+            'Murf AI': 'https://murf.ai',
+            'Play.ht': 'https://play.ht',
+            'Resemble AI': 'https://www.resemble.ai',
+            'Speechify': 'https://speechify.com',
+            'Tabnine': 'https://www.tabnine.com',
+            'Codeium': 'https://codeium.com',
+            'Replit': 'https://replit.com',
+            'Cursor': 'https://cursor.sh',
+            'Amazon CodeWhisperer': 'https://aws.amazon.com/codewhisperer/',
+            'HubSpot': 'https://www.hubspot.com',
+            'Surfer SEO': 'https://surferseo.com',
+            'Semrush': 'https://www.semrush.com',
+            'ChatSpot': 'https://chatspot.ai',
+            'Notion': 'https://www.notion.so',
+            'ClickUp': 'https://clickup.com',
+            'Zapier': 'https://zapier.com',
+            'Figma': 'https://www.figma.com',
+            'Uizard': 'https://uizard.io',
+            'Khroma': 'https://www.khroma.co',
+            'Looka': 'https://looka.com',
+            'Framer': 'https://www.framer.com',
+            'Perplexity': 'https://www.perplexity.ai',
+            'Character.AI': 'https://character.ai',
+            'Hugging Face': 'https://huggingface.co',
+            'Replika': 'https://replika.com',
+            'Bing Chat': 'https://www.bing.com/chat',
+            'Phind': 'https://www.phind.com',
+            'Elicit': 'https://elicit.org',
+            'Consensus': 'https://consensus.app',
+            'Jenni AI': 'https://jenni.ai',
+            'Wordvice AI': 'https://wordvice.ai',
+            'Trinka': 'https://www.trinka.ai',
+            'Ginger': 'https://www.gingersoftware.com',
+            'LanguageTool': 'https://languagetool.org',
+            'Sapling': 'https://sapling.ai',
+            'Writer': 'https://writer.com',
+            'Anyword': 'https://anyword.com',
+            'Copysmith': 'https://copysmith.ai',
+            'Peppertype': 'https://www.peppertype.ai',
+            'Hypotenuse AI': 'https://www.hypotenuse.ai',
+            'Simplified': 'https://simplified.com',
+            'Narrato': 'https://narrato.io',
+            'Frase': 'https://www.frase.io',
+            'MarketMuse': 'https://www.marketmuse.com',
+            'Clearscope': 'https://www.clearscope.io',
+            'INK': 'https://inkforall.com',
+            'Outranking': 'https://www.outranking.io',
+            'ContentBot': 'https://contentbot.ai',
+            'Sudowrite': 'https://www.sudowrite.com',
+            'NovelAI': 'https://novelai.net',
+            'Artguru': 'https://www.artguru.ai',
+            'Starryai': 'https://starryai.com',
+            'Fotor': 'https://www.fotor.com',
+            'Pixlr': 'https://pixlr.com',
+            'Remini': 'https://remini.ai',
+            'Topaz Labs': 'https://www.topazlabs.com',
+            'VanceAI': 'https://vance.ai',
+            'BlueWillow': 'https://www.bluewillow.ai',
+            'Mage': 'https://www.mage.space',
+            'DreamStudio': 'https://beta.dreamstudio.ai',
+            'Lexica': 'https://lexica.art',
+            'Kaiber': 'https://kaiber.ai',
+            'Fliki': 'https://fliki.ai',
+            'InVideo': 'https://invideo.io',
+            'Lumen5': 'https://lumen5.com',
+            'Elai': 'https://elai.io',
+            'Colossyan': 'https://www.colossyan.com',
+            'Movio': 'https://www.movio.la',
+            'Captions': 'https://www.captions.ai',
+            'OpusClip': 'https://www.opus.pro',
+            'Vizard': 'https://vizard.ai',
+            'Munch': 'https://www.getmunch.com',
+            'Klap': 'https://klap.app',
+            'Vidyo.ai': 'https://vidyo.ai',
+            'Kapwing': 'https://www.kapwing.com',
+            'VEED': 'https://www.veed.io',
+            'Clipchamp': 'https://clipchamp.com',
+            'Podcastle': 'https://podcastle.ai',
+            'Adobe Podcast': 'https://podcast.adobe.com',
+            'Krisp': 'https://krisp.ai',
+            'Cleanvoice': 'https://cleanvoice.ai',
+            'Sonix': 'https://sonix.ai',
+            'Trint': 'https://trint.com',
+            'Rev': 'https://www.rev.com',
+            'Fireflies.ai': 'https://fireflies.ai',
+            'Grain': 'https://grain.com',
+            'Fathom': 'https://fathom.video',
+            'Tactiq': 'https://tactiq.io',
+            'Wellsaid Labs': 'https://wellsaidlabs.com',
+            'Lovo': 'https://lovo.ai',
+            'Listnr': 'https://www.listnr.tech',
+            'Speechify': 'https://speechify.com',
+            'Uberduck': 'https://uberduck.ai',
+            'Voicemod': 'https://www.voicemod.net',
+            'Sourcegraph Cody': 'https://sourcegraph.com/cody',
+            'Pieces': 'https://pieces.app',
+            'Mintlify': 'https://mintlify.com',
+            'Blackbox AI': 'https://www.blackbox.ai',
+            'AskCodi': 'https://www.askcodi.com',
+            'v0': 'https://v0.dev',
+            'Galileo AI': 'https://www.usegalileo.ai',
+            'Diagram': 'https://diagram.com',
+            'Magician': 'https://magician.design'
+        };
+        
+        // 页面加载完成后执行
+        window.addEventListener('load', function() {
+            console.log('页面加载完成，开始初始化工具卡片点击事件...');
+            
+            const toolCards = document.querySelectorAll('.tool-card');
+            console.log('找到工具卡片数量:', toolCards.length);
+            
+            toolCards.forEach(function(card, index) {
+                const h3 = card.querySelector('h3');
+                if (!h3) {
+                    console.log('卡片', index, '没有找到 h3 标签');
+                    return;
+                }
+                
+                const toolName = h3.textContent.trim();
+                console.log('初始化工具:', toolName);
+                
+                // 设置鼠标样式
+                card.style.cursor = 'pointer';
+                card.style.transition = 'transform 0.2s ease';
+                
+                // 添加点击事件
+                card.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    console.log('点击了工具:', toolName);
+                    
+                    // 优先级1: 检查是否有详情页
+                    if (toolDetailPages[toolName]) {
+                        console.log('跳转到详情页:', toolDetailPages[toolName]);
+                        window.location.href = toolDetailPages[toolName];
+                        return;
+                    }
+                    
+                    // 优先级2: 检查是否有官网
+                    if (toolWebsites[toolName]) {
+                        console.log('打开官网:', toolWebsites[toolName]);
+                        window.open(toolWebsites[toolName], '_blank');
+                        return;
+                    }
+                    
+                    // 优先级3: 构建可能的 URL
+                    const slug = toolName.toLowerCase()
+                        .replace(/\s+/g, '')
+                        .replace(/[^a-z0-9]/g, '');
+                    const url = 'https://www.' + slug + '.com';
+                    console.log('尝试打开构建的 URL:', url);
+                    window.open(url, '_blank');
+                });
+                
+                // 添加悬停效果
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-4px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+            
+            console.log('所有工具卡片初始化完成！');
+        });
+    </script>
+</body>
+</html>

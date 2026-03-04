@@ -1,0 +1,478 @@
+{
+  "tools": [
+    {
+      "id": 41,
+      "name": "Rytr",
+      "slug": "rytr",
+      "category": "AI Writing",
+      "developer": "Rytr",
+      "logo": "rytr-logo.png",
+      "tagline": "Affordable AI writing assistant for everyone",
+      "description": "Rytr is one of the most affordable AI writing tools on the market. It offers 40+ use cases and templates, making it perfect for budget-conscious users who still want quality AI writing assistance.",
+      "key_features": [
+        "40+ use cases and templates",
+        "30+ languages",
+        "20+ tones of voice",
+        "Built-in plagiarism checker",
+        "SEO analyzer",
+        "Browser extension"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (10K characters/month), Saver ($9/month), Unlimited ($29/month)"
+      },
+      "pros": [
+        "Very affordable",
+        "Good quality output",
+        "Many templates",
+        "Free tier available",
+        "Easy to use"
+      ],
+      "cons": [
+        "Not as advanced as ChatGPT",
+        "Free tier is limited",
+        "Can be repetitive",
+        "Limited long-form capabilities"
+      ],
+      "rating": {
+        "overall": 4.2,
+        "ease_of_use": 4.6,
+        "features": 4.0,
+        "value": 4.7
+      },
+      "best_for": "Budget-conscious users, students, small businesses, beginners",
+      "website": "https://rytr.me",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Rytr Official Website"
+    },
+    {
+      "id": 42,
+      "name": "QuillBot",
+      "slug": "quillbot",
+      "category": "AI Writing",
+      "developer": "QuillBot",
+      "logo": "quillbot-logo.png",
+      "tagline": "AI paraphrasing and writing enhancement tool",
+      "description": "QuillBot specializes in paraphrasing and rewriting text. It's popular among students and writers for improving sentence structure, avoiding plagiarism, and enhancing writing quality.",
+      "key_features": [
+        "AI paraphrasing (7 modes)",
+        "Grammar checker",
+        "Summarizer",
+        "Citation generator",
+        "Plagiarism checker",
+        "Translator (30+ languages)"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (125 words), Premium ($9.95/month)"
+      },
+      "pros": [
+        "Excellent paraphrasing",
+        "Multiple writing modes",
+        "Affordable",
+        "Free tier available",
+        "Good for students"
+      ],
+      "cons": [
+        "Free tier is very limited",
+        "Not for original content creation",
+        "Can change meaning",
+        "Premium required for best features"
+      ],
+      "rating": {
+        "overall": 4.3,
+        "ease_of_use": 4.7,
+        "features": 4.2,
+        "value": 4.5
+      },
+      "best_for": "Students, academic writers, content rewriters, ESL learners",
+      "website": "https://quillbot.com",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "QuillBot Official Website"
+    },
+    {
+      "id": 43,
+      "name": "Wordtune",
+      "slug": "wordtune",
+      "category": "AI Writing",
+      "developer": "AI21 Labs",
+      "logo": "wordtune-logo.png",
+      "tagline": "AI writing companion for rewriting and improving text",
+      "description": "Wordtune is an AI writing assistant that helps you rewrite and improve your sentences. It offers multiple suggestions for each sentence, helping you find the perfect way to express your ideas.",
+      "key_features": [
+        "Sentence rewriting",
+        "Tone adjustment (casual/formal)",
+        "Expand or shorten text",
+        "Spices (add facts, examples, jokes)",
+        "Browser extension",
+        "Works everywhere"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (10 rewrites/day), Premium ($9.99/month), Premium Plus ($14.99/month)"
+      },
+      "pros": [
+        "Excellent sentence improvement",
+        "Multiple suggestions",
+        "Easy to use",
+        "Works in browser",
+        "Free tier available"
+      ],
+      "cons": [
+        "Free tier is limited",
+        "Only works on sentences (not paragraphs)",
+        "Can be expensive",
+        "Not for long-form content"
+      ],
+      "rating": {
+        "overall": 4.4,
+        "ease_of_use": 4.8,
+        "features": 4.3,
+        "value": 4.3
+      },
+      "best_for": "Writers, professionals, students, non-native English speakers",
+      "website": "https://www.wordtune.com",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Wordtune Official Website"
+    },
+    {
+      "id": 44,
+      "name": "HeyGen",
+      "slug": "heygen",
+      "category": "AI Video",
+      "developer": "HeyGen",
+      "logo": "heygen-logo.png",
+      "tagline": "AI video generator with customizable avatars",
+      "description": "HeyGen creates professional videos with AI avatars from text scripts. It's perfect for creating explainer videos, training content, and marketing videos without filming.",
+      "key_features": [
+        "100+ AI avatars",
+        "40+ languages",
+        "Custom avatar creation",
+        "Voice cloning",
+        "Video templates",
+        "API access"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (1 credit), Creator ($29/month), Business ($89/month), Enterprise (Custom)"
+      },
+      "pros": [
+        "High-quality avatars",
+        "Easy to use",
+        "Multilingual support",
+        "Custom avatars",
+        "Free trial available"
+      ],
+      "cons": [
+        "Free tier is very limited",
+        "Avatars can look artificial",
+        "Expensive for heavy use",
+        "Credit-based system"
+      ],
+      "rating": {
+        "overall": 4.5,
+        "ease_of_use": 4.7,
+        "features": 4.5,
+        "value": 4.3
+      },
+      "best_for": "Marketing teams, educators, corporate training, content creators",
+      "website": "https://www.heygen.com",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "HeyGen Official Website"
+    },
+    {
+      "id": 45,
+      "name": "Pika",
+      "slug": "pika",
+      "category": "AI Video",
+      "developer": "Pika Labs",
+      "logo": "pika-logo.png",
+      "tagline": "AI video generation from text and images",
+      "description": "Pika is an AI video generator that creates videos from text prompts or images. It's known for its high-quality outputs and creative control features.",
+      "key_features": [
+        "Text-to-video generation",
+        "Image-to-video animation",
+        "Video editing and modification",
+        "Camera controls",
+        "Aspect ratio options",
+        "Community gallery"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (limited), Standard ($10/month), Unlimited ($35/month), Pro ($70/month)"
+      },
+      "pros": [
+        "High-quality video output",
+        "Creative control features",
+        "Free tier available",
+        "Active development",
+        "Good community"
+      ],
+      "cons": [
+        "Free tier is limited",
+        "Can be slow",
+        "Still in development",
+        "Some features in beta"
+      ],
+      "rating": {
+        "overall": 4.4,
+        "ease_of_use": 4.3,
+        "features": 4.5,
+        "value": 4.5
+      },
+      "best_for": "Content creators, filmmakers, social media managers, creative professionals",
+      "website": "https://pika.art",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Pika Official Website"
+    },
+    {
+      "id": 46,
+      "name": "Kaiber",
+      "slug": "kaiber",
+      "category": "AI Video",
+      "developer": "Kaiber",
+      "logo": "kaiber-logo.png",
+      "tagline": "AI video generation for artists and creators",
+      "description": "Kaiber is an AI video generation platform designed for artists and musicians. It creates stunning visual content from text, images, or music, with unique artistic styles.",
+      "key_features": [
+        "Text-to-video generation",
+        "Audio-reactive videos",
+        "Image animation",
+        "Multiple art styles",
+        "Storyboard creation",
+        "Music video generation"
+      ],
+      "pricing": {
+        "starting_price": "$5/month",
+        "plans": "Explorer ($5/month), Pro ($15/month), Artist ($30/month)"
+      },
+      "pros": [
+        "Unique artistic styles",
+        "Audio-reactive features",
+        "Affordable pricing",
+        "Great for music videos",
+        "Creative community"
+      ],
+      "cons": [
+        "No free tier",
+        "Credit-based system",
+        "Can be unpredictable",
+        "Learning curve"
+      ],
+      "rating": {
+        "overall": 4.3,
+        "ease_of_use": 4.2,
+        "features": 4.5,
+        "value": 4.4
+      },
+      "best_for": "Musicians, artists, creative professionals, music video creators",
+      "website": "https://kaiber.ai",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Kaiber Official Website"
+    },
+    {
+      "id": 47,
+      "name": "Adobe Firefly",
+      "slug": "adobe-firefly",
+      "category": "AI Image",
+      "developer": "Adobe",
+      "logo": "firefly-logo.png",
+      "tagline": "Adobe's AI image generator for creative professionals",
+      "description": "Adobe Firefly is Adobe's family of AI models for creative work. It's integrated into Adobe Creative Cloud apps and offers commercial-safe AI image generation.",
+      "key_features": [
+        "Text-to-image generation",
+        "Generative fill (Photoshop)",
+        "Text effects",
+        "Recolor vectors",
+        "Commercial use allowed",
+        "Integration with Adobe apps"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (25 credits/month), Premium ($4.99/month for 100 credits), Creative Cloud (included)"
+      },
+      "pros": [
+        "Commercial-safe",
+        "Adobe ecosystem integration",
+        "High quality",
+        "Professional features",
+        "Free tier available"
+      ],
+      "cons": [
+        "Credit-based system",
+        "Less creative than Midjourney",
+        "Requires Adobe account",
+        "Limited compared to competitors"
+      ],
+      "rating": {
+        "overall": 4.4,
+        "ease_of_use": 4.6,
+        "features": 4.3,
+        "value": 4.4
+      },
+      "best_for": "Adobe users, professional designers, commercial projects",
+      "website": "https://www.adobe.com/products/firefly.html",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Adobe Official Website"
+    },
+    {
+      "id": 48,
+      "name": "Ideogram",
+      "slug": "ideogram",
+      "category": "AI Image",
+      "developer": "Ideogram",
+      "logo": "ideogram-logo.png",
+      "tagline": "AI image generator with excellent text rendering",
+      "description": "Ideogram is an AI image generator that excels at rendering text within images. It's perfect for creating posters, logos, and designs that require readable text.",
+      "key_features": [
+        "Text-to-image generation",
+        "Excellent text rendering",
+        "Multiple aspect ratios",
+        "Magic Prompt (auto-enhancement)",
+        "Remix feature",
+        "Community gallery"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (100 images/day), Plus ($8/month), Pro ($20/month)"
+      },
+      "pros": [
+        "Best text rendering in AI images",
+        "Generous free tier",
+        "High quality",
+        "Easy to use",
+        "Affordable"
+      ],
+      "cons": [
+        "Newer platform (less mature)",
+        "Smaller community",
+        "Limited compared to Midjourney",
+        "Some features in development"
+      ],
+      "rating": {
+        "overall": 4.5,
+        "ease_of_use": 4.7,
+        "features": 4.4,
+        "value": 4.7
+      },
+      "best_for": "Designers, marketers, anyone needing text in AI images",
+      "website": "https://ideogram.ai",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Ideogram Official Website"
+    },
+    {
+      "id": 49,
+      "name": "Codeium",
+      "slug": "codeium",
+      "category": "AI Code",
+      "developer": "Codeium",
+      "logo": "codeium-logo.png",
+      "tagline": "Free AI code completion for developers",
+      "description": "Codeium is a free AI code completion tool that rivals GitHub Copilot. It supports 70+ programming languages and integrates with 40+ IDEs, all completely free for individuals.",
+      "key_features": [
+        "AI code completion",
+        "70+ programming languages",
+        "40+ IDE integrations",
+        "Chat with codebase",
+        "Code explanation",
+        "100% free for individuals"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free (individuals), Teams ($12/user/month), Enterprise (Custom)"
+      },
+      "pros": [
+        "Completely free for individuals",
+        "Good accuracy",
+        "Many IDE integrations",
+        "Fast responses",
+        "Privacy-focused"
+      ],
+      "cons": [
+        "Not as powerful as Copilot",
+        "Smaller user base",
+        "Some features in development",
+        "Less documentation"
+      ],
+      "rating": {
+        "overall": 4.5,
+        "ease_of_use": 4.6,
+        "features": 4.4,
+        "value": 4.9
+      },
+      "best_for": "Individual developers, students, open-source contributors",
+      "website": "https://codeium.com",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Codeium Official Website"
+    },
+    {
+      "id": 50,
+      "name": "Phind",
+      "slug": "phind",
+      "category": "AI Code",
+      "developer": "Phind",
+      "logo": "phind-logo.png",
+      "tagline": "AI search engine for developers",
+      "description": "Phind is an AI-powered search engine specifically designed for developers. It provides instant answers to coding questions with code examples and explanations.",
+      "key_features": [
+        "AI-powered code search",
+        "Instant answers with code examples",
+        "Web search integration",
+        "Multiple programming languages",
+        "VS Code extension",
+        "Customizable AI models"
+      ],
+      "pricing": {
+        "starting_price": "Free",
+        "plans": "Free, Phind Pro ($15/month)"
+      },
+      "pros": [
+        "Fast and accurate",
+        "Code-specific answers",
+        "Free tier is generous",
+        "Good for learning",
+        "Up-to-date information"
+      ],
+      "cons": [
+        "Limited to coding questions",
+        "Pro features require subscription",
+        "Smaller user base",
+        "Can be wrong sometimes"
+      ],
+      "rating": {
+        "overall": 4.4,
+        "ease_of_use": 4.7,
+        "features": 4.3,
+        "value": 4.6
+      },
+      "best_for": "Developers, coding students, anyone learning to code",
+      "website": "https://www.phind.com",
+      "affiliate_link": "",
+      "last_updated": "2026-03-03",
+      "source": "Phind Official Website"
+    }
+  ],
+  "summary": {
+    "total_core_tools": 50,
+    "categories_covered": {
+      "AI Writing": 10,
+      "AI Image": 10,
+      "AI Video": 10,
+      "AI Voice": 5,
+      "AI Code": 8,
+      "AI Productivity": 7
+    },
+    "quality_level": "Premium - Detailed descriptions, features, pros/cons, ratings",
+    "last_updated": "2026-03-03",
+    "version": "1.0 Core"
+  }
+}

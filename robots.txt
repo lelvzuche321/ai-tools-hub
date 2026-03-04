@@ -1,0 +1,73 @@
+# robots.txt for AI Tools Hub
+# https://aitoolshub.com/robots.txt
+# Last Updated: March 3, 2026
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://aitoolshub.com/sitemap.xml
+
+# Crawl delay (optional - prevents server overload)
+# Crawl-delay: 1
+
+# Specific rules for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Baidu (Chinese search engine)
+User-agent: Baiduspider
+Allow: /
+
+# Yandex (Russian search engine)
+User-agent: Yandex
+Allow: /
+
+# Block bad bots and scrapers (optional)
+# Uncomment if you experience issues with these bots
+
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /
+
+# User-agent: MJ12bot
+# Disallow: /
+
+# User-agent: DotBot
+# Disallow: /
+
+# Disallow admin/private areas (if any)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /api/
+
+# Note: This is a permissive robots.txt that allows all legitimate search engines
+# to crawl and index the entire site for maximum SEO visibility.

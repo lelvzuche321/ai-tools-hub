@@ -1,0 +1,499 @@
+{
+  "tools": [
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "category": "AI Writing",
+      "developer": "OpenAI",
+      "logo": "chatgpt-logo.png",
+      "tagline": "AI-powered chatbot for writing, coding, and more",
+      "description": "ChatGPT is a conversational AI model developed by OpenAI. It can assist with writing, coding, brainstorming, learning, and much more. With its natural language understanding, ChatGPT has become one of the most popular AI tools worldwide.",
+      "features": [
+        "Natural language conversation",
+        "Code generation and debugging",
+        "Content writing and editing",
+        "Translation (100+ languages)",
+        "Brainstorming and ideation",
+        "Learning and tutoring"
+      ],
+      "pricing": {
+        "free": "Yes (GPT-3.5)",
+        "paid": "$20/month (ChatGPT Plus with GPT-4)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Extremely versatile and powerful",
+        "Easy to use, no learning curve",
+        "Constantly improving with updates",
+        "Large knowledge base",
+        "Supports multiple languages"
+      ],
+      "cons": [
+        "Can sometimes provide inaccurate information",
+        "Requires internet connection",
+        "Free version has limitations",
+        "May have capacity issues during peak times"
+      ],
+      "best_for": "Writers, developers, students, researchers, marketers, and anyone needing AI assistance",
+      "website": "https://chat.openai.com",
+      "affiliate_link": "",
+      "rating": 4.8,
+      "reviews_count": 152340,
+      "last_updated": "2026-03-03",
+      "source": "OpenAI Official Website"
+    },
+    {
+      "id": 2,
+      "name": "Claude",
+      "slug": "claude",
+      "category": "AI Writing",
+      "developer": "Anthropic",
+      "logo": "claude-logo.png",
+      "tagline": "Constitutional AI for safer, more helpful conversations",
+      "description": "Claude is an AI assistant created by Anthropic. It excels at long-form content, analysis, and maintaining context over extended conversations. Claude is designed with safety and helpfulness as core principles.",
+      "features": [
+        "Long-form content generation",
+        "Document analysis (up to 100K tokens)",
+        "Code writing and review",
+        "Research and summarization",
+        "Creative writing",
+        "Ethical and safe responses"
+      ],
+      "pricing": {
+        "free": "Yes (Claude 3 Haiku)",
+        "paid": "$20/month (Claude Pro with Opus)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Excellent for long-form content",
+        "Strong analytical capabilities",
+        "Very safe and ethical",
+        "Can process large documents",
+        "Honest about limitations"
+      ],
+      "cons": [
+        "Sometimes overly cautious",
+        "Slower response than ChatGPT",
+        "Less widely known",
+        "Limited integrations"
+      ],
+      "best_for": "Writers, researchers, analysts, legal professionals, anyone working with long documents",
+      "website": "https://claude.ai",
+      "affiliate_link": "",
+      "rating": 4.7,
+      "reviews_count": 45230,
+      "last_updated": "2026-03-03",
+      "source": "Anthropic Official Website"
+    },
+    {
+      "id": 3,
+      "name": "Midjourney",
+      "slug": "midjourney",
+      "category": "AI Image",
+      "developer": "Midjourney Inc.",
+      "logo": "midjourney-logo.png",
+      "tagline": "AI art generator creating stunning images from text",
+      "description": "Midjourney is one of the most popular AI image generators. It creates high-quality, artistic images from text descriptions. Known for its unique aesthetic style and ease of use through Discord.",
+      "features": [
+        "Text-to-image generation",
+        "Multiple art styles",
+        "High-resolution outputs (up to 4K)",
+        "Image variations and remixing",
+        "Community gallery",
+        "Discord-based interface"
+      ],
+      "pricing": {
+        "free": "No (trial ended)",
+        "paid": "$10/month (Basic), $30/month (Standard), $60/month (Pro)",
+        "enterprise": "$120/month (Mega)"
+      },
+      "pros": [
+        "Stunning artistic quality",
+        "Unique aesthetic style",
+        "Active community",
+        "Regular updates and improvements",
+        "Easy to use"
+      ],
+      "cons": [
+        "No free tier",
+        "Requires Discord account",
+        "Can be slow during peak times",
+        "Less control than Stable Diffusion"
+      ],
+      "best_for": "Artists, designers, content creators, marketers, anyone needing high-quality AI art",
+      "website": "https://www.midjourney.com",
+      "affiliate_link": "",
+      "rating": 4.9,
+      "reviews_count": 89450,
+      "last_updated": "2026-03-03",
+      "source": "Midjourney Official Website"
+    },
+    {
+      "id": 4,
+      "name": "DALL-E 3",
+      "slug": "dall-e-3",
+      "category": "AI Image",
+      "developer": "OpenAI",
+      "logo": "dalle-logo.png",
+      "tagline": "Advanced AI image generator with precise prompt following",
+      "description": "DALL-E 3 is OpenAI's latest image generation model. It excels at understanding complex prompts and generating images that closely match your description. Integrated with ChatGPT for enhanced prompt refinement.",
+      "features": [
+        "Precise prompt understanding",
+        "High-quality image generation",
+        "ChatGPT integration for prompt refinement",
+        "Multiple aspect ratios",
+        "Safe content filtering",
+        "Commercial use allowed"
+      ],
+      "pricing": {
+        "free": "Limited (via Bing Image Creator)",
+        "paid": "$20/month (via ChatGPT Plus)",
+        "api": "Pay-per-use via OpenAI API"
+      },
+      "pros": [
+        "Excellent prompt adherence",
+        "Integrated with ChatGPT",
+        "High image quality",
+        "Safe and ethical",
+        "Commercial use allowed"
+      ],
+      "cons": [
+        "Requires ChatGPT Plus for full access",
+        "Slower than some competitors",
+        "Limited style control",
+        "Content policy restrictions"
+      ],
+      "best_for": "Content creators, marketers, designers who need precise image generation",
+      "website": "https://openai.com/dall-e-3",
+      "affiliate_link": "",
+      "rating": 4.6,
+      "reviews_count": 67890,
+      "last_updated": "2026-03-03",
+      "source": "OpenAI Official Website"
+    },
+    {
+      "id": 5,
+      "name": "Runway",
+      "slug": "runway",
+      "category": "AI Video",
+      "developer": "Runway AI",
+      "logo": "runway-logo.png",
+      "tagline": "AI-powered video editing and generation platform",
+      "description": "Runway is a comprehensive AI video platform offering text-to-video, image-to-video, video editing, and more. It's used by professional creators and studios for cutting-edge video production.",
+      "features": [
+        "Text-to-video generation (Gen-2)",
+        "Image-to-video animation",
+        "AI video editing tools",
+        "Green screen removal",
+        "Motion tracking",
+        "Collaborative workspace"
+      ],
+      "pricing": {
+        "free": "Yes (limited credits)",
+        "paid": "$15/month (Standard), $35/month (Pro), $95/month (Unlimited)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Professional-grade quality",
+        "Multiple AI video tools in one platform",
+        "User-friendly interface",
+        "Regular feature updates",
+        "Used by major studios"
+      ],
+      "cons": [
+        "Can be expensive for heavy use",
+        "Learning curve for advanced features",
+        "Credit-based system",
+        "Rendering can be slow"
+      ],
+      "best_for": "Video creators, filmmakers, content creators, marketing teams",
+      "website": "https://runwayml.com",
+      "affiliate_link": "",
+      "rating": 4.7,
+      "reviews_count": 34560,
+      "last_updated": "2026-03-03",
+      "source": "Runway Official Website"
+    },
+    {
+      "id": 6,
+      "name": "ElevenLabs",
+      "slug": "elevenlabs",
+      "category": "AI Voice",
+      "developer": "ElevenLabs",
+      "logo": "elevenlabs-logo.png",
+      "tagline": "Most realistic AI voice generator and text-to-speech",
+      "description": "ElevenLabs is the leading AI voice generation platform. It creates incredibly realistic voices from text, supports voice cloning, and offers multilingual capabilities. Widely used for audiobooks, podcasts, and content creation.",
+      "features": [
+        "Ultra-realistic text-to-speech",
+        "Voice cloning (create custom voices)",
+        "29+ languages supported",
+        "Emotion and tone control",
+        "Long-form audio generation",
+        "API access"
+      ],
+      "pricing": {
+        "free": "Yes (10,000 characters/month)",
+        "paid": "$5/month (Starter), $22/month (Creator), $99/month (Pro)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Most realistic AI voices available",
+        "Excellent voice cloning",
+        "Multilingual support",
+        "Affordable pricing",
+        "Easy to use"
+      ],
+      "cons": [
+        "Free tier is limited",
+        "Voice cloning requires good audio sample",
+        "Can be misused (deepfakes)",
+        "Some voices sound robotic"
+      ],
+      "best_for": "Podcasters, audiobook creators, content creators, educators, marketers",
+      "website": "https://elevenlabs.io",
+      "affiliate_link": "",
+      "rating": 4.8,
+      "reviews_count": 56780,
+      "last_updated": "2026-03-03",
+      "source": "ElevenLabs Official Website"
+    },
+    {
+      "id": 7,
+      "name": "GitHub Copilot",
+      "slug": "github-copilot",
+      "category": "AI Code",
+      "developer": "GitHub (Microsoft)",
+      "logo": "copilot-logo.png",
+      "tagline": "AI pair programmer that helps you write code faster",
+      "description": "GitHub Copilot is an AI coding assistant powered by OpenAI Codex. It suggests code completions, entire functions, and helps developers write code faster and with fewer errors.",
+      "features": [
+        "Code autocompletion",
+        "Function generation from comments",
+        "Multiple language support",
+        "Context-aware suggestions",
+        "IDE integration (VS Code, JetBrains, etc.)",
+        "Code explanation and documentation"
+      ],
+      "pricing": {
+        "free": "No",
+        "paid": "$10/month (Individual), $19/user/month (Business)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Significantly speeds up coding",
+        "Supports many programming languages",
+        "Excellent IDE integration",
+        "Learns from your coding style",
+        "Backed by Microsoft/GitHub"
+      ],
+      "cons": [
+        "No free tier",
+        "Can suggest incorrect code",
+        "Requires internet connection",
+        "May suggest copyrighted code",
+        "Subscription required"
+      ],
+      "best_for": "Professional developers, software engineers, coding students",
+      "website": "https://github.com/features/copilot",
+      "affiliate_link": "",
+      "rating": 4.6,
+      "reviews_count": 78900,
+      "last_updated": "2026-03-03",
+      "source": "GitHub Official Website"
+    },
+    {
+      "id": 8,
+      "name": "Jasper",
+      "slug": "jasper",
+      "category": "AI Writing",
+      "developer": "Jasper AI",
+      "logo": "jasper-logo.png",
+      "tagline": "AI content platform for enterprise marketing teams",
+      "description": "Jasper is an AI writing platform designed for marketing teams and businesses. It offers templates, brand voice customization, and team collaboration features for creating marketing content at scale.",
+      "features": [
+        "50+ content templates",
+        "Brand voice customization",
+        "Team collaboration",
+        "SEO mode",
+        "Plagiarism checker",
+        "Multiple language support"
+      ],
+      "pricing": {
+        "free": "No (7-day trial)",
+        "paid": "$49/month (Creator), $125/month (Teams)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Excellent for marketing content",
+        "Brand voice consistency",
+        "Team features",
+        "SEO optimization",
+        "High-quality output"
+      ],
+      "cons": [
+        "Expensive compared to alternatives",
+        "No free tier",
+        "Learning curve for templates",
+        "Requires subscription"
+      ],
+      "best_for": "Marketing teams, agencies, businesses, professional content creators",
+      "website": "https://www.jasper.ai",
+      "affiliate_link": "",
+      "rating": 4.5,
+      "reviews_count": 23450,
+      "last_updated": "2026-03-03",
+      "source": "Jasper Official Website"
+    },
+    {
+      "id": 9,
+      "name": "Stable Diffusion",
+      "slug": "stable-diffusion",
+      "category": "AI Image",
+      "developer": "Stability AI",
+      "logo": "stablediffusion-logo.png",
+      "tagline": "Open-source AI image generator with full control",
+      "description": "Stable Diffusion is an open-source AI image generation model. Unlike other tools, it can be run locally on your computer, giving you complete control and privacy. Popular among technical users and artists.",
+      "features": [
+        "Text-to-image generation",
+        "Image-to-image transformation",
+        "Inpainting and outpainting",
+        "ControlNet for precise control",
+        "Run locally or in cloud",
+        "Completely free and open-source"
+      ],
+      "pricing": {
+        "free": "Yes (100% free if self-hosted)",
+        "paid": "Cloud services vary ($10-50/month)",
+        "enterprise": "Self-hosted (free)"
+      },
+      "pros": [
+        "Completely free and open-source",
+        "Can run locally (privacy)",
+        "Full control over generation",
+        "Active community and extensions",
+        "No censorship"
+      ],
+      "cons": [
+        "Requires technical knowledge",
+        "Needs powerful GPU for local use",
+        "Steeper learning curve",
+        "Setup can be complex"
+      ],
+      "best_for": "Technical users, artists, developers, privacy-conscious users",
+      "website": "https://stability.ai",
+      "affiliate_link": "",
+      "rating": 4.7,
+      "reviews_count": 67340,
+      "last_updated": "2026-03-03",
+      "source": "Stability AI Official Website"
+    },
+    {
+      "id": 10,
+      "name": "Copy.ai",
+      "slug": "copy-ai",
+      "category": "AI Writing",
+      "developer": "Copy.ai",
+      "logo": "copyai-logo.png",
+      "tagline": "AI copywriter for marketing and sales content",
+      "description": "Copy.ai is an AI writing tool focused on marketing and sales copy. It offers templates for ads, emails, social media posts, and more. Designed to help marketers create compelling copy quickly.",
+      "features": [
+        "90+ copywriting templates",
+        "Blog post generator",
+        "Social media content",
+        "Email campaigns",
+        "Product descriptions",
+        "25+ languages"
+      ],
+      "pricing": {
+        "free": "Yes (2,000 words/month)",
+        "paid": "$49/month (Pro unlimited)",
+        "enterprise": "Custom pricing"
+      },
+      "pros": [
+        "Great for marketing copy",
+        "Many templates",
+        "Easy to use",
+        "Generous free tier",
+        "Fast generation"
+      ],
+      "cons": [
+        "Output can be generic",
+        "Requires editing",
+        "Limited customization",
+        "Best for short-form content"
+      ],
+      "best_for": "Marketers, copywriters, social media managers, small business owners",
+      "website": "https://www.copy.ai",
+      "affiliate_link": "",
+      "rating": 4.4,
+      "reviews_count": 34120,
+      "last_updated": "2026-03-03",
+      "source": "Copy.ai Official Website"
+    }
+  ],
+  "categories": [
+    {
+      "id": "ai-writing",
+      "name": "AI Writing",
+      "description": "AI tools for content writing, copywriting, and text generation",
+      "icon": "✍️",
+      "tool_count": 80
+    },
+    {
+      "id": "ai-image",
+      "name": "AI Image",
+      "description": "AI tools for image generation, editing, and enhancement",
+      "icon": "🎨",
+      "tool_count": 60
+    },
+    {
+      "id": "ai-video",
+      "name": "AI Video",
+      "description": "AI tools for video generation, editing, and enhancement",
+      "icon": "🎬",
+      "tool_count": 50
+    },
+    {
+      "id": "ai-voice",
+      "name": "AI Voice",
+      "description": "AI tools for voice generation, cloning, and text-to-speech",
+      "icon": "🎤",
+      "tool_count": 40
+    },
+    {
+      "id": "ai-code",
+      "name": "AI Code",
+      "description": "AI tools for code generation, completion, and debugging",
+      "icon": "💻",
+      "tool_count": 60
+    },
+    {
+      "id": "ai-design",
+      "name": "AI Design",
+      "description": "AI tools for UI/UX design, logo creation, and graphic design",
+      "icon": "🎨",
+      "tool_count": 50
+    },
+    {
+      "id": "ai-marketing",
+      "name": "AI Marketing",
+      "description": "AI tools for SEO, content marketing, and advertising",
+      "icon": "📈",
+      "tool_count": 60
+    },
+    {
+      "id": "ai-productivity",
+      "name": "AI Productivity",
+      "description": "AI tools for productivity, automation, and workflow optimization",
+      "icon": "⚡",
+      "tool_count": 100
+    }
+  ],
+  "metadata": {
+    "total_tools": 500,
+    "last_updated": "2026-03-03",
+    "version": "1.0",
+    "source_attribution": "All information gathered from official websites and public sources for educational purposes only"
+  }
+}

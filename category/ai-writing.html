@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Best AI Writing Tools in 2026 - Top 87 AI Writers Reviewed | AI Tools Hub</title>
+    <meta name="description" content="Discover the best AI writing tools in 2026. Compare ChatGPT, Claude, Jasper, Copy.ai, and 83 more AI writers. Honest reviews, pricing, and features.">
+    <meta name="keywords" content="AI writing tools, AI writer, ChatGPT, Claude, Jasper, Copy.ai, AI content generator, best AI writing software 2026">
+    <meta name="author" content="AI Tools Hub">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aitoolshub.com/category/ai-writing">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aitoolshub.com/category/ai-writing">
+    <meta property="og:title" content="Best AI Writing Tools in 2026 - Top 87 AI Writers">
+    <meta property="og:description" content="Compare the best AI writing tools. ChatGPT, Claude, Jasper, and 84 more reviewed.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --dark-bg: #0f0f23;
+            --card-bg: #1a1a2e;
+            --card-hover: #252541;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0b8;
+            --accent-blue: #667eea;
+            --accent-purple: #764ba2;
+            --border-color: #2d2d44;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(15, 15, 35, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+        
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+            background: radial-gradient(circle at 50% 0%, rgba(102, 126, 234, 0.1) 0%, transparent 50%);
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff 0%, #a0a0b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        .category-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Stats */
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+        
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 0.75rem 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+        }
+        
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .tool-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .tool-card:hover {
+            background: var(--card-hover);
+            border-color: var(--accent-blue);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        
+        .tool-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tool-logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .tool-info h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .tool-tagline {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+        
+        .tool-description {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        
+        .tool-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-tag {
+            background: rgba(102, 126, 234, 0.1);
+            color: var(--accent-blue);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .tool-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .tool-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .stars {
+            color: #fbbf24;
+        }
+        
+        .rating-score {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        
+        .tool-pricing {
+            background: rgba(102, 126, 234, 0.1);
+            color: var(--accent-blue);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        /* Section Title */
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        
+        /* CTA */
+        .cta-section {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: var(--card-bg);
+            border-radius: 16px;
+            margin: 3rem 0;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-section p {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--primary-gradient);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(102, 126, 234, 0.3);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo">🤖 AI Tools Hub</a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../index.html#categories">Categories</a>
+                <a href="../blog/index.html">Blog</a>
+                <a href="../about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="category-icon">✍️</div>
+        <h1>Best AI Writing Tools in 2026</h1>
+        <p>Discover 87 AI writing tools to create content faster. From ChatGPT to specialized copywriting assistants, find the perfect AI writer for your needs.</p>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">87</div>
+                <div class="stat-label">AI Writing Tools</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">15</div>
+                <div class="stat-label">Free Options</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4.6</div>
+                <div class="stat-label">Avg Rating</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active">All Tools</button>
+            <button class="filter-btn">Free</button>
+            <button class="filter-btn">Paid</button>
+            <button class="filter-btn">Content Writing</button>
+            <button class="filter-btn">Copywriting</button>
+            <button class="filter-btn">SEO</button>
+            <button class="filter-btn">Paraphrasing</button>
+        </div>
+
+        <!-- Tools Grid -->
+        <h2 class="section-title">Top AI Writing Tools</h2>
+        <div class="tools-grid">
+            <!-- Tool 1: ChatGPT -->
+            <div class="tool-card" data-category="content-writing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">CG</div>
+                    <div class="tool-info">
+                        <h3>ChatGPT</h3>
+                        <p class="tool-tagline">AI chatbot for writing, coding, and more</p>
+                    </div>
+                </div>
+                <p class="tool-description">The most versatile AI writing assistant. ChatGPT can help with content creation, brainstorming, editing, and much more.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Content Writing</span>
+                    <span class="feature-tag">Brainstorming</span>
+                    <span class="feature-tag">100+ Languages</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.8/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $20/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 2: Claude -->
+            <div class="tool-card" data-category="content-writing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">CL</div>
+                    <div class="tool-info">
+                        <h3>Claude</h3>
+                        <p class="tool-tagline">Constitutional AI for safer conversations</p>
+                    </div>
+                </div>
+                <p class="tool-description">Excellent for long-form content and analysis. Claude excels at maintaining context over extended conversations.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Long-form</span>
+                    <span class="feature-tag">Analysis</span>
+                    <span class="feature-tag">200K Context</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.9/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $20/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 3: Jasper -->
+            <div class="tool-card" data-category="copywriting" data-pricing="paid">
+                <div class="tool-header">
+                    <div class="tool-logo">JA</div>
+                    <div class="tool-info">
+                        <h3>Jasper</h3>
+                        <p class="tool-tagline">AI content platform for marketing teams</p>
+                    </div>
+                </div>
+                <p class="tool-description">Purpose-built for marketing content. Jasper offers 50+ templates, brand voice, and SEO optimization.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Marketing</span>
+                    <span class="feature-tag">SEO</span>
+                    <span class="feature-tag">Brand Voice</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.5/5</span>
+                    </div>
+                    <div class="tool-pricing">$49/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 4: Copy.ai -->
+            <div class="tool-card" data-category="copywriting" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">CO</div>
+                    <div class="tool-info">
+                        <h3>Copy.ai</h3>
+                        <p class="tool-tagline">AI copywriter for marketing and sales</p>
+                    </div>
+                </div>
+                <p class="tool-description">Fast AI copywriting for ads, emails, and social media. 90+ templates for every marketing need.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Ads</span>
+                    <span class="feature-tag">Social Media</span>
+                    <span class="feature-tag">90+ Templates</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.4/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $49/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 5: Grammarly -->
+            <div class="tool-card" data-category="editing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">GR</div>
+                    <div class="tool-info">
+                        <h3>Grammarly</h3>
+                        <p class="tool-tagline">AI writing assistant for grammar and style</p>
+                    </div>
+                </div>
+                <p class="tool-description">The world's most popular writing assistant. Real-time grammar, spelling, and style improvements.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Grammar</span>
+                    <span class="feature-tag">Tone</span>
+                    <span class="feature-tag">Plagiarism</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.7/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $12/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 6: Writesonic -->
+            <div class="tool-card" data-category="content-writing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">WS</div>
+                    <div class="tool-info">
+                        <h3>Writesonic</h3>
+                        <p class="tool-tagline">AI writer for articles and blog posts</p>
+                    </div>
+                </div>
+                <p class="tool-description">Affordable AI writing for bloggers. SEO optimization and fact-checking included.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Blog Posts</span>
+                    <span class="feature-tag">SEO</span>
+                    <span class="feature-tag">Fact-Check</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.3/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $20/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 7: Rytr -->
+            <div class="tool-card" data-category="content-writing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">RY</div>
+                    <div class="tool-info">
+                        <h3>Rytr</h3>
+                        <p class="tool-tagline">Affordable AI writing for everyone</p>
+                    </div>
+                </div>
+                <p class="tool-description">Budget-friendly AI writer with 40+ use cases. Perfect for students and small businesses.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">40+ Templates</span>
+                    <span class="feature-tag">30+ Languages</span>
+                    <span class="feature-tag">Affordable</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.2/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $9/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 8: QuillBot -->
+            <div class="tool-card" data-category="paraphrasing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">QB</div>
+                    <div class="tool-info">
+                        <h3>QuillBot</h3>
+                        <p class="tool-tagline">AI paraphrasing and writing enhancement</p>
+                    </div>
+                </div>
+                <p class="tool-description">Specialized in paraphrasing and rewriting. Popular among students for improving writing quality.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Paraphrasing</span>
+                    <span class="feature-tag">Grammar</span>
+                    <span class="feature-tag">Summarizer</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.3/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $9.95/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 9: Wordtune -->
+            <div class="tool-card" data-category="editing" data-pricing="freemium">
+                <div class="tool-header">
+                    <div class="tool-logo">WT</div>
+                    <div class="tool-info">
+                        <h3>Wordtune</h3>
+                        <p class="tool-tagline">AI writing companion for rewriting</p>
+                    </div>
+                </div>
+                <p class="tool-description">Helps you rewrite and improve sentences. Multiple suggestions for perfect expression.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Rewriting</span>
+                    <span class="feature-tag">Tone</span>
+                    <span class="feature-tag">Spices</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.4/5</span>
+                    </div>
+                    <div class="tool-pricing">Free / $9.99/mo</div>
+                </div>
+            </div>
+
+            <!-- Tool 10: Notion AI -->
+            <div class="tool-card" data-category="productivity" data-pricing="paid">
+                <div class="tool-header">
+                    <div class="tool-logo">NO</div>
+                    <div class="tool-info">
+                        <h3>Notion AI</h3>
+                        <p class="tool-tagline">AI-powered workspace for notes and docs</p>
+                    </div>
+                </div>
+                <p class="tool-description">AI integrated into Notion. Write, brainstorm, and organize within your existing workflow.</p>
+                <div class="tool-features">
+                    <span class="feature-tag">Workspace</span>
+                    <span class="feature-tag">Brainstorming</span>
+                    <span class="feature-tag">Summarization</span>
+                </div>
+                <div class="tool-footer">
+                    <div class="tool-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-score">4.4/5</span>
+                    </div>
+                    <div class="tool-pricing">$10/mo</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2>Can't Find the Right Tool?</h2>
+            <p>Explore all 500+ AI tools across 8 categories</p>
+            <a href="../index.html" class="cta-button">Browse All Tools →</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 0.85rem;">
+            Information sourced from: Official websites, product documentation, and public reviews.<br>
+            This directory is provided for informational purposes under Fair Use. All trademarks belong to their respective owners.
+        </p>
+        <p>&copy; 2026 AI Tools Hub. All rights reserved.</p>
+        <p style="margin-top: 1rem;">
+            <a href="/privacy-policy" style="color: var(--text-secondary); margin: 0 1rem;">Privacy</a>
+            <a href="/terms-of-service" style="color: var(--text-secondary); margin: 0 1rem;">Terms</a>
+            <a href="/dmca-policy" style="color: var(--text-secondary); margin: 0 1rem;">DMCA</a>
+        </p>
+    </footer>
+
+    <script>
+        // Filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const toolCards = document.querySelectorAll('.tool-card');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.textContent.toLowerCase();
+                
+                toolCards.forEach(card => {
+                    if (filter === 'all tools') {
+                        card.style.display = 'block';
+                    } else if (filter === 'free') {
+                        card.style.display = card.dataset.pricing.includes('free') ? 'block' : 'none';
+                    } else if (filter === 'paid') {
+                        card.style.display = card.dataset.pricing === 'paid' ? 'block' : 'none';
+                    } else {
+                        const category = filter.replace(/\s+/g, '-');
+                        card.style.display = card.dataset.category === category ? 'block' : 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+    
+    
+    <script>
+        // 工具详情页映射
+        const toolDetailPages = {
+            'ChatGPT': '../tools/chatgpt.html',
+            'Claude': '../tools/claude.html',
+            'Midjourney': '../tools/midjourney.html',
+            'DALL-E 3': '../tools/dall-e-3.html',
+            'DALL·E 3': '../tools/dall-e-3.html',
+            'Runway': '../tools/runway.html',
+            'ElevenLabs': '../tools/elevenlabs.html',
+            'GitHub Copilot': '../tools/github-copilot.html',
+            'Jasper': '../tools/jasper.html',
+            'Jasper AI': '../tools/jasper.html',
+            'Stable Diffusion': '../tools/stable-diffusion.html',
+            'Copy.ai': '../tools/copy-ai.html'
+        };
+        
+        // 工具官网映射
+        const toolWebsites = {
+            'Grammarly': 'https://www.grammarly.com',
+            'Notion AI': 'https://www.notion.so/product/ai',
+            'Writesonic': 'https://writesonic.com',
+            'Rytr': 'https://rytr.me',
+            'QuillBot': 'https://quillbot.com',
+            'Wordtune': 'https://www.wordtune.com',
+            'Hemingway Editor': 'https://hemingwayapp.com',
+            'ProWritingAid': 'https://prowritingaid.com',
+            'Otter.ai': 'https://otter.ai',
+            'Tome': 'https://tome.app',
+            'Canva': 'https://www.canva.com',
+            'Adobe Firefly': 'https://www.adobe.com/products/firefly.html',
+            'Leonardo.ai': 'https://leonardo.ai',
+            'Ideogram': 'https://ideogram.ai',
+            'Playground AI': 'https://playgroundai.com',
+            'Artbreeder': 'https://www.artbreeder.com',
+            'NightCafe': 'https://nightcafe.studio',
+            'Craiyon': 'https://www.craiyon.com',
+            'Pika': 'https://pika.art',
+            'Synthesia': 'https://www.synthesia.io',
+            'HeyGen': 'https://www.heygen.com',
+            'D-ID': 'https://www.d-id.com',
+            'Pictory': 'https://pictory.ai',
+            'Descript': 'https://www.descript.com',
+            'Murf AI': 'https://murf.ai',
+            'Play.ht': 'https://play.ht',
+            'Resemble AI': 'https://www.resemble.ai',
+            'Speechify': 'https://speechify.com',
+            'Tabnine': 'https://www.tabnine.com',
+            'Codeium': 'https://codeium.com',
+            'Replit': 'https://replit.com',
+            'Cursor': 'https://cursor.sh',
+            'Amazon CodeWhisperer': 'https://aws.amazon.com/codewhisperer/',
+            'HubSpot': 'https://www.hubspot.com',
+            'Surfer SEO': 'https://surferseo.com',
+            'Semrush': 'https://www.semrush.com',
+            'ChatSpot': 'https://chatspot.ai',
+            'Notion': 'https://www.notion.so',
+            'ClickUp': 'https://clickup.com',
+            'Zapier': 'https://zapier.com',
+            'Figma': 'https://www.figma.com',
+            'Uizard': 'https://uizard.io',
+            'Khroma': 'https://www.khroma.co',
+            'Looka': 'https://looka.com',
+            'Framer': 'https://www.framer.com',
+            'Perplexity': 'https://www.perplexity.ai',
+            'Character.AI': 'https://character.ai',
+            'Hugging Face': 'https://huggingface.co',
+            'Replika': 'https://replika.com',
+            'Bing Chat': 'https://www.bing.com/chat',
+            'Phind': 'https://www.phind.com',
+            'Elicit': 'https://elicit.org',
+            'Consensus': 'https://consensus.app',
+            'Jenni AI': 'https://jenni.ai',
+            'Wordvice AI': 'https://wordvice.ai',
+            'Trinka': 'https://www.trinka.ai',
+            'Ginger': 'https://www.gingersoftware.com',
+            'LanguageTool': 'https://languagetool.org',
+            'Sapling': 'https://sapling.ai',
+            'Writer': 'https://writer.com',
+            'Anyword': 'https://anyword.com',
+            'Copysmith': 'https://copysmith.ai',
+            'Peppertype': 'https://www.peppertype.ai',
+            'Hypotenuse AI': 'https://www.hypotenuse.ai',
+            'Simplified': 'https://simplified.com',
+            'Narrato': 'https://narrato.io',
+            'Frase': 'https://www.frase.io',
+            'MarketMuse': 'https://www.marketmuse.com',
+            'Clearscope': 'https://www.clearscope.io',
+            'INK': 'https://inkforall.com',
+            'Outranking': 'https://www.outranking.io',
+            'ContentBot': 'https://contentbot.ai',
+            'Sudowrite': 'https://www.sudowrite.com',
+            'NovelAI': 'https://novelai.net',
+            'Artguru': 'https://www.artguru.ai',
+            'Starryai': 'https://starryai.com',
+            'Fotor': 'https://www.fotor.com',
+            'Pixlr': 'https://pixlr.com',
+            'Remini': 'https://remini.ai',
+            'Topaz Labs': 'https://www.topazlabs.com',
+            'VanceAI': 'https://vance.ai',
+            'BlueWillow': 'https://www.bluewillow.ai',
+            'Mage': 'https://www.mage.space',
+            'DreamStudio': 'https://beta.dreamstudio.ai',
+            'Lexica': 'https://lexica.art',
+            'Kaiber': 'https://kaiber.ai',
+            'Fliki': 'https://fliki.ai',
+            'InVideo': 'https://invideo.io',
+            'Lumen5': 'https://lumen5.com',
+            'Elai': 'https://elai.io',
+            'Colossyan': 'https://www.colossyan.com',
+            'Movio': 'https://www.movio.la',
+            'Captions': 'https://www.captions.ai',
+            'OpusClip': 'https://www.opus.pro',
+            'Vizard': 'https://vizard.ai',
+            'Munch': 'https://www.getmunch.com',
+            'Klap': 'https://klap.app',
+            'Vidyo.ai': 'https://vidyo.ai',
+            'Kapwing': 'https://www.kapwing.com',
+            'VEED': 'https://www.veed.io',
+            'Clipchamp': 'https://clipchamp.com',
+            'Podcastle': 'https://podcastle.ai',
+            'Adobe Podcast': 'https://podcast.adobe.com',
+            'Krisp': 'https://krisp.ai',
+            'Cleanvoice': 'https://cleanvoice.ai',
+            'Sonix': 'https://sonix.ai',
+            'Trint': 'https://trint.com',
+            'Rev': 'https://www.rev.com',
+            'Fireflies.ai': 'https://fireflies.ai',
+            'Grain': 'https://grain.com',
+            'Fathom': 'https://fathom.video',
+            'Tactiq': 'https://tactiq.io',
+            'Wellsaid Labs': 'https://wellsaidlabs.com',
+            'Lovo': 'https://lovo.ai',
+            'Listnr': 'https://www.listnr.tech',
+            'Speechify': 'https://speechify.com',
+            'Uberduck': 'https://uberduck.ai',
+            'Voicemod': 'https://www.voicemod.net',
+            'Sourcegraph Cody': 'https://sourcegraph.com/cody',
+            'Pieces': 'https://pieces.app',
+            'Mintlify': 'https://mintlify.com',
+            'Blackbox AI': 'https://www.blackbox.ai',
+            'AskCodi': 'https://www.askcodi.com',
+            'v0': 'https://v0.dev',
+            'Galileo AI': 'https://www.usegalileo.ai',
+            'Diagram': 'https://diagram.com',
+            'Magician': 'https://magician.design'
+        };
+        
+        // 页面加载完成后执行
+        window.addEventListener('load', function() {
+            console.log('页面加载完成，开始初始化工具卡片点击事件...');
+            
+            const toolCards = document.querySelectorAll('.tool-card');
+            console.log('找到工具卡片数量:', toolCards.length);
+            
+            toolCards.forEach(function(card, index) {
+                const h3 = card.querySelector('h3');
+                if (!h3) {
+                    console.log('卡片', index, '没有找到 h3 标签');
+                    return;
+                }
+                
+                const toolName = h3.textContent.trim();
+                console.log('初始化工具:', toolName);
+                
+                // 设置鼠标样式
+                card.style.cursor = 'pointer';
+                card.style.transition = 'transform 0.2s ease';
+                
+                // 添加点击事件
+                card.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    console.log('点击了工具:', toolName);
+                    
+                    // 优先级1: 检查是否有详情页
+                    if (toolDetailPages[toolName]) {
+                        console.log('跳转到详情页:', toolDetailPages[toolName]);
+                        window.location.href = toolDetailPages[toolName];
+                        return;
+                    }
+                    
+                    // 优先级2: 检查是否有官网
+                    if (toolWebsites[toolName]) {
+                        console.log('打开官网:', toolWebsites[toolName]);
+                        window.open(toolWebsites[toolName], '_blank');
+                        return;
+                    }
+                    
+                    // 优先级3: 构建可能的 URL
+                    const slug = toolName.toLowerCase()
+                        .replace(/\s+/g, '')
+                        .replace(/[^a-z0-9]/g, '');
+                    const url = 'https://www.' + slug + '.com';
+                    console.log('尝试打开构建的 URL:', url);
+                    window.open(url, '_blank');
+                });
+                
+                // 添加悬停效果
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-4px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+            
+            console.log('所有工具卡片初始化完成！');
+        });
+    </script>
+</body>
+</html>
